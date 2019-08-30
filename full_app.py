@@ -66,3 +66,4 @@ web_app.add_url_rule('/sms', 'sms_reply', sms_reply, methods=['POST'])
 if __name__ == '__main__':
     # Run this app on our localhost.
     web_app.run()
+    broadcast()
